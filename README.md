@@ -14,21 +14,19 @@ sudo apt-get upgrade
 sudo apt install openjdk-21-jdk openjdk-21-jre
 ```
 # Check active JAVA version
-```
+<pre>
 sudo update-alternatives --display java
 
 java - auto mode
   link best version is /usr/lib/jvm/java-21-openjdk-arm64/bin/java
-  <pre>
   <b>link currently points to /usr/lib/jvm/java-21-openjdk-arm64/bin/java</b>
-  </pre>
   link java is /usr/bin/java
   slave java.1.gz is /usr/share/man/man1/java.1.gz
 /usr/lib/jvm/java-17-openjdk-arm64/bin/java - priority 1711
   slave java.1.gz: /usr/lib/jvm/java-17-openjdk-arm64/man/man1/java.1.gz
 /usr/lib/jvm/java-21-openjdk-arm64/bin/java - priority 2111
   slave java.1.gz: /usr/lib/jvm/java-21-openjdk-arm64/man/man1/java.1.gz
-```
+</pre>
 ```
 sudo update-alternatives --config java
 There are 2 choices for the alternative java (providing /usr/bin/java).
