@@ -4,11 +4,15 @@ I tried to install the Jet Brains toolbox, but I didn't succeed.
 
 ## Install Pycharm without the toolbox
 
-`
+'''
 sudo apt-get update
 
 sudo apt-get upgrade
-`
+'''
+´´´
+gggg
+´´´
+
 
 
 
