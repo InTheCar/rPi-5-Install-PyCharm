@@ -1,20 +1,42 @@
 # rPi-5-Install-PyCharm
 
-I tried to install the Jet Brains toolbox, but I didn't succeed.
+I tried to install the Jet Brains toolbox, but I didn't succeed. I installed PyCharm without the toolbox.
 
 ## Install Pycharm without the toolbox
 
-'''
-sudo apt-get update
-
-sudo apt-get upgrade
-'''
-´´´
-ggggg
-´´´
+# Update the system
 ```
-wwwwwwwww
-wwwwwwwww
+sudo apt-get update
+sudo apt-get upgrade
+```
+# Install JAVA
+```
+sudo apt install openjdk-21-jdk openjdk-21-jre
+```
+# Check active JAVA version
+```
+sudo update-alternatives --display java
+
+java - auto mode
+  link best version is /usr/lib/jvm/java-21-openjdk-arm64/bin/java
+  **link currently points to /usr/lib/jvm/java-21-openjdk-arm64/bin/java**
+  link java is /usr/bin/java
+  slave java.1.gz is /usr/share/man/man1/java.1.gz
+/usr/lib/jvm/java-17-openjdk-arm64/bin/java - priority 1711
+  slave java.1.gz: /usr/lib/jvm/java-17-openjdk-arm64/man/man1/java.1.gz
+/usr/lib/jvm/java-21-openjdk-arm64/bin/java - priority 2111
+  slave java.1.gz: /usr/lib/jvm/java-21-openjdk-arm64/man/man1/java.1.gz
+```
+```
+sudo update-alternatives --config java
+There are 2 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                         Priority   Status
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-21-openjdk-arm64/bin/java   2111      auto mode
+* 1            /usr/lib/jvm/java-17-openjdk-arm64/bin/java   1711      manual mode
+  2            /usr/lib/jvm/java-21-openjdk-arm64/bin/java   2111      manual mode
+
 ```
 
 
@@ -31,7 +53,7 @@ wwwwwwwww
 
 `sudo apt install libfuse2`
 
-
+```
 ownload the tarball .tar.gz from the Toolbox App web page.
 
 https://www.jetbrains.com/toolbox-app/
@@ -65,3 +87,4 @@ cd glibc-2.29/build
 ../configure --prefix=/opt/glibc
 make 
 make install
+```
