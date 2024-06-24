@@ -1,4 +1,6 @@
 # rPi-5-Install-PyCharm
+The used rPi5 was installed with this procedure:
+[rPi-5-Install-UBUNTU-DESKTOP-24.04-LTS-64bit](https://github.com/InTheCar/rPi-5-Install-UBUNTU-DESKTOP-24.04-LTS-64bit)
 
 I tried to install the Jet Brains toolbox, but I didn't succeed. I installed PyCharm without the toolbox.
 
@@ -27,6 +29,7 @@ java - auto mode
 /usr/lib/jvm/java-21-openjdk-arm64/bin/java - priority 2111
   slave java.1.gz: /usr/lib/jvm/java-21-openjdk-arm64/man/man1/java.1.gz
 </pre>
+# Change active JAVA version in necessary
 ```
 sudo update-alternatives --config java
 There are 2 choices for the alternative java (providing /usr/bin/java).
@@ -37,7 +40,9 @@ There are 2 choices for the alternative java (providing /usr/bin/java).
 * 1            /usr/lib/jvm/java-17-openjdk-arm64/bin/java   1711      manual mode
   2            /usr/lib/jvm/java-21-openjdk-arm64/bin/java   2111      manual mode
 
+Press <enter> to keep the current choice[*], or type selection number:
 ```
+
 
 
 
