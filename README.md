@@ -42,8 +42,21 @@ There are 2 choices for the alternative java (providing /usr/bin/java).
 Press <enter> to keep the current choice[*], or type selection number:
 ```
 # Download the free version of PyCharm
+(pycharm-community-2024.1.3-aarch64.tar.gz)
+[PyCharm Community Edition (Linux ARM64)](https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=linuxARM64&code=PCC)
 
-[PyCharm Community Edition](https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=linuxARM64&code=PCC)
+# Extract the archive to /opt/
+```
+cd ~/Downloads/
+sudo tar -xzf ./pycharm-community-2024.1.3-aarch64.tar.gz -C /opt/
+```
+# Run PyCharm
+```
+cd /opt/pycharm-community-2024.1.3/bin/
+./pycharm.sh
+```
+
+
 
 
 
