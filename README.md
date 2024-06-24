@@ -1,7 +1,26 @@
 # rPi-5-Install-PyCharm
 
-nstall the Toolbox App
-sudo apt install libfuse2
+I tried to install the Jet Brains toolbox, but I didn't succeed.
+
+## Install Pycharm without the toolbox
+
+`
+sudo apt-get update
+sudo apt-get upgrade
+`
+
+
+
+
+
+
+
+
+
+
+## my try to install the Jet Brains toolbox
+
+`sudo apt install libfuse2`
 
 
 ownload the tarball .tar.gz from the Toolbox App web page.
@@ -30,6 +49,7 @@ sudo apt install bison
 
 
 wget -c https://ftp.gnu.org/gnu/glibc/glibc-2.29.tar.gz
+
 tar -zxvf glibc-2.29.tar.gz
 mkdir glibc-2.29/build
 cd glibc-2.29/build
