@@ -6,6 +6,7 @@ I tried to install the Jet Brains toolbox, but I didn't succeed.
 
 `
 sudo apt-get update
+
 sudo apt-get upgrade
 `
 
