@@ -1,7 +1,7 @@
 # rPi-5-Install-PyCharm
 The used rPi5 was installed with this procedure: [rPi-5-Install-UBUNTU-DESKTOP-24.04-LTS-64bit](https://github.com/InTheCar/rPi-5-Install-UBUNTU-DESKTOP-24.04-LTS-64bit)
 
-I tried to install the Jet Brains toolbox, but I didn't succeed. I installed PyCharm without the toolbox.
+I tried to install the Jet Brains toolbox, but I didn't succeed. So I made the decision to install PyCharm without the toolbox.
 
 ## Install Pycharm without the toolbox
 
@@ -41,6 +41,9 @@ There are 2 choices for the alternative java (providing /usr/bin/java).
 
 Press <enter> to keep the current choice[*], or type selection number:
 ```
+# Download the free version of PyCharm
+
+[PyCharm Community Edition](https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=linuxARM64&code=PCC)
 
 
 
