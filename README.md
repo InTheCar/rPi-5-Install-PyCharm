@@ -19,7 +19,9 @@ sudo update-alternatives --display java
 
 java - auto mode
   link best version is /usr/lib/jvm/java-21-openjdk-arm64/bin/java
-  **link currently points to /usr/lib/jvm/java-21-openjdk-arm64/bin/java**
+  <pre>
+  <b>link currently points to /usr/lib/jvm/java-21-openjdk-arm64/bin/java</b>
+  </pre>
   link java is /usr/bin/java
   slave java.1.gz is /usr/share/man/man1/java.1.gz
 /usr/lib/jvm/java-17-openjdk-arm64/bin/java - priority 1711
