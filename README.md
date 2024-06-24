@@ -29,10 +29,10 @@ sudo apt install bison
 
 
 
-wget -c https://ftp.gnu.org/gnu/glibc/glibc-2.39.tar.gz
-tar -zxvf glibc-2.39.tar.gz
-mkdir glibc-2.39/build
-cd glibc-2.39/build
+wget -c https://ftp.gnu.org/gnu/glibc/glibc-2.29.tar.gz
+tar -zxvf glibc-2.29.tar.gz
+mkdir glibc-2.29/build
+cd glibc-2.29/build
 ../configure --prefix=/opt/glibc
 make 
 make install
