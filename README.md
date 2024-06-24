@@ -19,3 +19,20 @@ cd jetbrains-toolbox-2.3.2.31487/
 
 ./jetbrains-toolbox
 
+apt install openjdk-21-jdk openjdk-21-jre
+
+sudo apt update
+sudo apt install build-essential
+
+sudo apt install gawk
+sudo apt install bison
+
+
+
+wget -c https://ftp.gnu.org/gnu/glibc/glibc-2.39.tar.gz
+tar -zxvf glibc-2.39.tar.gz
+mkdir glibc-2.39/build
+cd glibc-2.39/build
+../configure --prefix=/opt/glibc
+make 
+make install
