@@ -56,6 +56,11 @@ cd /opt/pycharm-community-2024.1.3/bin/
 ./pycharm.sh
 ```
 
+vi ~/.local/share/applications/pycharm.desktop
+sudo update-desktop-database
+
+
+
 
 
 
