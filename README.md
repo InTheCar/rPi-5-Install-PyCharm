@@ -61,6 +61,7 @@ cd /opt/pycharm-community-2024.1.3/bin/
 ```
 # Assign the icon to Pycharm
 In PyCharm use "Tools|Create Desktop Entry ...".
+
 After this you can pin it to the dash (sidebar)
 
 
