@@ -54,18 +54,16 @@ sudo apt install git-hub
 cd ~/Downloads/
 sudo tar -xzf ./pycharm-community-2024.1.3-aarch64.tar.gz -C /opt/
 ```
-# Assign the icon to Pycharm
-'''
-vi ~/.local/share/applications/pycharm.desktop
-'''
-
-sudo update-desktop-database
-
 # Run PyCharm
 ```
 cd /opt/pycharm-community-2024.1.3/bin/
 ./pycharm.sh
 ```
+# Assign the icon to Pycharm
+In PyCharm use "Tools|Create Desktop Entry ...".
+After this you can pin it to the dash (sidebar)
+
+
 
 
 
