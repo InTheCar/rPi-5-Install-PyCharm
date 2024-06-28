@@ -41,6 +41,10 @@ There are 2 choices for the alternative java (providing /usr/bin/java).
 
 Press <enter> to keep the current choice[*], or type selection number:
 ```
+# Install git-hub for Pycharm
+'''
+sudo apt install git-hub 
+'''
 # Download the free version of PyCharm
 (pycharm-community-2024.1.3-aarch64.tar.gz)
 [PyCharm Community Edition (Linux ARM64)](https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=linuxARM64&code=PCC)
@@ -50,14 +54,20 @@ Press <enter> to keep the current choice[*], or type selection number:
 cd ~/Downloads/
 sudo tar -xzf ./pycharm-community-2024.1.3-aarch64.tar.gz -C /opt/
 ```
+# Assign the icon to Pycharm
+'''
+vi ~/.local/share/applications/pycharm.desktop
+'''
+
+sudo update-desktop-database
+
 # Run PyCharm
 ```
 cd /opt/pycharm-community-2024.1.3/bin/
 ./pycharm.sh
 ```
 
-vi ~/.local/share/applications/pycharm.desktop
-sudo update-desktop-database
+
 
 
 
